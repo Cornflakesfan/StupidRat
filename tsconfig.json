@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "es6",
+        "target": "es2017",
+        "moduleResolution": "node",
+        "outDir": "build/scripts",
+        "allowJs": false,
+        "strict": true,
+        "allowUnreachableCode": false,
+        "noImplicitAny": true,
+    },
+    "include": ["src/**/*"]
+}
+    
