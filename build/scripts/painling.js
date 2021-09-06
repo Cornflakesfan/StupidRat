@@ -38,7 +38,7 @@ export default class Painling {
     explode() {
         window.setTimeout(() => { console.log(this); this.dead = true; }, 50); // this is a disgusting trick
         this.onExplode(this.pos);
-        this.onExplode = (this.pos) => {};
+        this.onExplode = () => {};
     }
     addListeners() {
         window.addEventListener("keydown", (e) => {
