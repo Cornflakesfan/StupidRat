@@ -51,6 +51,7 @@ export default class Painling {
     private explode() {
         window.setTimeout(() => { console.log(this); this.dead = true; }, 50); // this is a disgusting trick
         this.onExplode(this.pos);
+        this.onExplode = (this.pos) => { return; }
     }
 
     private addListeners() {
